@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Roman/Desktop/build/cmake_install.cmake",
+		"C:/Users/Roman/Desktop/build/pybind11/cmake_install.cmake",
+		"C:/Users/Roman/Desktop/build/matplotplusplus/cmake_install.cmake",
+		"C:/Users/Roman/Desktop/build/matplotplusplus/source/cmake_install.cmake",
+		"C:/Users/Roman/Desktop/build/matplotplusplus/source/3rd_party/cmake_install.cmake",
+		"C:/Users/Roman/Desktop/build/matplotplusplus/source/matplot/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
