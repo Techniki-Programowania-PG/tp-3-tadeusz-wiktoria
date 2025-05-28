@@ -1,0 +1,10 @@
+^C:\USERS\ROMAN\DESKTOP\BUILD\CMAKEFILES\2D1D2910B21F0396253DAE7183A4DE70\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Roman/Desktop/Projekt3 -BC:/Users/Roman/Desktop/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Roman/Desktop/build/signal_processing.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
